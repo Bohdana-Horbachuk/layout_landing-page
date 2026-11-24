@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  height: 100vh;
+
+  background-image: url(/src/images/header-bg-mobile.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.header__bottom {
+  margin: auto 0;
+}
+
+.header__title {
+  margin: 0;
+
+  font-family: Cinzel, serif;
+  font-size: 64px;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 64px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -1.5px;
+  vertical-align: middle;
+}
